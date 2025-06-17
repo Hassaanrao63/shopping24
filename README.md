@@ -1,0 +1,14 @@
+shopping24/
+├── index.html
+├── home.html
+├── product.html
+├── cart.html
+├── checkout.html
+├── css/
+│   └── styles.css
+└── js/
+    ├── auth.js
+    ├── home.js
+    ├── product.js
+    ├── cart.js
+    └── checkout.js
