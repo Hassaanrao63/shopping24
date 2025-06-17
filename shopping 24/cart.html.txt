@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping 24 – Cart</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="home.html">Shopping 24</a>
+      <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+      <a href="#" id="logoutLink">Logout</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2>Your Cart</h2>
+    <div id="cartItems"></div>
+    <h3>Total: $<span id="cartTotal">0</span></h3>
+    <button id="gotoCheckout" class="button">Proceed to Checkout</button>
+  </div>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping 24 – Product</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="home.html">Shopping 24</a>
+      <a href="cart.html">Cart (<span id="cartCount">0</span>)</a>
+      <a href="#" id="logoutLink">Logout</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div id="productDetail"></div>
+    <div class="tabs">
+      <div id="tabDesc" class="tab active">Description</div>
+      <div id="tabRev" class="tab">Reviews</div>
+    </div>
+    <div id="tabContent" class="tab-content"></div>
+  </div>
+
+  <script src="js/product.js"></script>
+</body>
+</html>
