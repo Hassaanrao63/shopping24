@@ -4,11 +4,5 @@ shopping24/
 ├── product.html
 ├── cart.html
 ├── checkout.html
-├── css/
-│   └── styles.css
+└── css/
 └── js/
-    ├── auth.js
-    ├── home.js
-    ├── product.js
-    ├── cart.js
-    └── checkout.js
